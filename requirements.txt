@@ -1,0 +1,21 @@
+MATLAB 版本需求和依赖
+========================
+
+MATLAB 版本: R2019b 或更新
+工作区大小: 建议 4GB+ 内存
+
+必需工具箱:
+  ✓ Signal Processing Toolbox      - 信号处理
+  ✓ Statistics and Machine Learning Toolbox - 统计
+
+可选工具箱:
+  ○ Wavelet Toolbox               - 小波去噪（如启用）
+  ○ Parallel Computing Toolbox    - 并行计算
+
+第三方库:
+  无（纯 MATLAB 实现）
+
+数据依赖:
+  - SilentSpeech Dataset (100 Subjects)
+    位置: config.dataDir
+    格式: CSV 文件
